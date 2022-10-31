@@ -1,0 +1,66 @@
+.name {
+    color: salmon;
+}
+
+a {
+    color: deepskyblue;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+body {
+    background-color: mintcream;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.div-info {
+    border: 3px solid rgb(133, 229, 242);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 15px;
+}
+
+.title-i {
+    transition: all 0.3s;
+}
+
+.title-i:hover {
+    transform: scale(1.5);
+    transform: rotate(180deg);
+    color: #ff9a9e;
+}
+
+.line-color {
+    color: olive;
+}
+
+.close-up {
+    overflow: hidden;
+}
+
+.close-up img {
+    transition: all 0.3s;
+}
+
+.close-up img:hover {
+    transform: scale(1.5);
+    filter: brightness(130%);
+}
+
+.table {
+    font-size: 1.25rem;
+}
